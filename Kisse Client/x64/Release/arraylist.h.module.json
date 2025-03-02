@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Kisse Client\\x64\\Release\\ArrayList.h.obj",
+            "outputs": [
+                "C:\\Users\\2busty\\Desktop\\kisse me\\kisse client update gui private\\Kisse Client\\x64\\Release\\vc143.pdb",
+                "Kisse Client\\x64\\Release\\",
+                "C:\\Users\\2busty\\Desktop\\kisse me\\kisse client update gui private\\Kisse Client\\x64\\Release\\ArrayList.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Kisse\\Modules\\ArrayList.h",
+                    "source-path": "c:\\users\\2busty\\desktop\\kisse me\\kisse client update gui private\\kisse\\modules\\arraylist.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

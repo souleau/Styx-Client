@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{99c08478-ad37-4a66-bb2c-386b5f5122b0}</ProjectGuid>
+    <RootNamespace>Kisse</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Kisse Client</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <VcpkgUseStatic>true</VcpkgUseStatic>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <VcpkgUseStatic>true</VcpkgUseStatic>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <VcpkgUseStatic>true</VcpkgUseStatic>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <VcpkgUseStatic>true</VcpkgUseStatic>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include;$(SolutionDir)Include\ImGui;$(SolutionDir)Include\JNI;$(SolutionDir)Include\JNI\win32;$(SolutionDir)Include\JNI\win32\bridge;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib;$(SolutionDir)Lib\JNI;$(SolutionDir)Lib\miniz;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>jvm.lib;opengl32.lib;capstone.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include;$(SolutionDir)Include\ImGui;$(SolutionDir)Include\JNI;$(SolutionDir)Include\JNI\win32;$(SolutionDir)Include\JNI\win32\bridge;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib;$(SolutionDir)Lib\JNI;$(SolutionDir)Lib\miniz;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>jvm.lib;opengl32.lib;capstone.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include;$(SolutionDir)Include\ImGui;$(SolutionDir)Include\JNI;$(SolutionDir)Include\JNI\win32;$(SolutionDir)Include\JNI\win32\bridge;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib;$(SolutionDir)Lib\JNI;$(SolutionDir)Lib\miniz;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>jvm.lib;opengl32.lib;capstone.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include;$(SolutionDir)Include\ImGui;$(SolutionDir)Include\JNI;$(SolutionDir)Include\JNI\win32;$(SolutionDir)Include\JNI\win32\bridge;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib;$(SolutionDir)Lib\JNI;$(SolutionDir)Lib\miniz;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>jvm.lib;opengl32.lib;capstone.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="HotSpot\HotSpot.cpp" />
+    <ClCompile Include="Include\ImGui\imgui.cpp" />
+    <ClCompile Include="Include\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="Include\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Include\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Include\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Include\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="Include\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Include\miniz\miniz.c" />
+    <ClCompile Include="io\netty\ChannelHandlerContext\ChannelHandlerContext.cpp" />
+    <ClCompile Include="java\lang\ClassLoader\ClassLoader.cpp" />
+    <ClCompile Include="java\lang\Double\Double.cpp" />
+    <ClCompile Include="java\lang\Object\Object.cpp" />
+    <ClCompile Include="java\lang\String\String.cpp" />
+    <ClCompile Include="java\lang\System\System.cpp" />
+    <ClCompile Include="java\nio\FloatBuffer\FloatBuffer.cpp" />
+    <ClCompile Include="java\nio\IntBuffer\IntBuffer.cpp" />
+    <ClCompile Include="java\util\Collection\Collection.cpp" />
+    <ClCompile Include="java\util\List\List.cpp" />
+    <ClCompile Include="java\util\Map\Map.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="net\minecraft\block\Block.cpp" />
+    <ClCompile Include="net\minecraft\block\state\IBlockState.cpp" />
+    <ClCompile Include="net\minecraft\client\entity\AbstractClientPlayer\AbstractClientPlayer.cpp" />
+    <ClCompile Include="net\minecraft\client\entity\EntityPlayerSP\EntityPlayerSP.cpp" />
+    <ClCompile Include="net\minecraft\client\gui\GuiScreen\GuiScreen.cpp" />
+    <ClCompile Include="net\minecraft\client\Minecraft\Minecraft.cpp" />
+    <ClCompile Include="net\minecraft\client\multiplayer\PlayerControllerMP\PlayerControllerMP.cpp" />
+    <ClCompile Include="net\minecraft\client\multiplayer\WorldClient\WorldClient.cpp" />
+    <ClCompile Include="net\minecraft\client\network\NetHandlerPlayClient\NetHandlerPlayClient.cpp" />
+    <ClCompile Include="net\minecraft\client\OptionInstance\OptionInstance.cpp" />
+    <ClCompile Include="net\minecraft\client\renderer\ActiveRenderInfo\ActiveRenderInfo.cpp" />
+    <ClCompile Include="net\minecraft\client\settings\GameSettings\GameSettings.cpp" />
+    <ClCompile Include="net\minecraft\client\settings\KeyBinding\KeyBinding.cpp" />
+    <ClCompile Include="net\minecraft\entity\EntityLivingBase\EntityLivingBase.cpp" />
+    <ClCompile Include="net\minecraft\entity\Entity\Entity.cpp" />
+    <ClCompile Include="net\minecraft\entity\player\EntityPlayer\EntityPlayer.cpp" />
+    <ClCompile Include="net\minecraft\network\NetworkManager\NetworkManager.cpp" />
+    <ClCompile Include="net\minecraft\network\Packet\Packet.cpp" />
+    <ClCompile Include="net\minecraft\network\play\client\C03PacketPlayer\C03PacketPlayer.cpp" />
+    <ClCompile Include="net\minecraft\network\play\client\C03PacketPlayer\C04PacketPlayerPosition\C04PacketPlayerPosition.cpp" />
+    <ClCompile Include="net\minecraft\network\play\client\C03PacketPlayer\C06PacketPlayerPosLook\C06PacketPlayerPosLook.cpp" />
+    <ClCompile Include="net\minecraft\network\play\server\S12PacketEntityVelocity\S12PacketEntityVelocity.cpp" />
+    <ClCompile Include="net\minecraft\network\play\server\S14PacketEntity\S14PacketEntity.cpp" />
+    <ClCompile Include="net\minecraft\network\play\server\S19PacketEntityStatus\S19PacketEntityStatus.cpp" />
+    <ClCompile Include="net\minecraft\network\protocol\game\ClientboundDamageEventPacket\ClientboundDamageEventPacket.cpp" />
+    <ClCompile Include="net\minecraft\util\AxisAlignedBB\AxisAlignedBB.cpp" />
+    <ClCompile Include="net\minecraft\util\BlockPos\BlockPos.cpp" />
+    <ClCompile Include="net\minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp" />
+    <ClCompile Include="net\minecraft\util\MovingObjectPosition\MovingObjectType\MovingObjectType.cpp" />
+    <ClCompile Include="net\minecraft\util\Timer\Timer.cpp" />
+    <ClCompile Include="net\minecraft\util\Vec3\Vec3.cpp" />
+    <ClCompile Include="net\minecraft\world\World\World.cpp" />
+    <ClCompile Include="Kisse\Cache\Cache.cpp" />
+    <ClCompile Include="Kisse\GUI\GUI.cpp" />
+    <ClCompile Include="Kisse\Hook\Capstone.cpp" />
+    <ClCompile Include="Kisse\Hook\JavaHook.cpp" />
+    <ClCompile Include="Kisse\Hook\Module.cpp" />
+    <ClCompile Include="Kisse\JavaClass\JavaClassV2.cpp" />
+    <ClCompile Include="Kisse\Maths\Maths.cpp" />
+    <ClCompile Include="Kisse\Modules\Aimassist.cpp" />
+    <ClCompile Include="Kisse\Modules\BackTrack.cpp" />
+    <ClCompile Include="Kisse\Modules\Blink.cpp" />
+    <ClCompile Include="Kisse\Modules\ClientBrandChanger.cpp" />
+    <ClCompile Include="Kisse\Modules\FastPlace.cpp" />
+    <ClCompile Include="Kisse\Modules\FullBright.cpp" />
+    <ClCompile Include="Kisse\Modules\Glide.cpp" />
+    <ClCompile Include="Kisse\Modules\Autoclicker.cpp" />
+    <ClCompile Include="Kisse\Modules\LegitScaffold.cpp" />
+    <ClCompile Include="Kisse\Modules\Modules.cpp" />
+    <ClCompile Include="Kisse\Modules\NoFall.cpp" />
+    <ClCompile Include="Kisse\Modules\NoMiss.cpp" />
+    <ClCompile Include="Kisse\Modules\Reach.cpp" />
+    <ClCompile Include="Kisse\Modules\Speed.cpp" />
+    <ClCompile Include="Kisse\Modules\Sprint.cpp" />
+    <ClCompile Include="Kisse\Modules\theme.cpp" />
+    <ClCompile Include="Kisse\Modules\Velocity.cpp" />
+    <ClCompile Include="Kisse\Modules\VelocityFly.cpp" />
+    <ClCompile Include="Kisse\Modules\VelocityPacket.cpp" />
+    <ClCompile Include="Kisse\Modules\WTap.cpp" />
+    <ClCompile Include="Kisse\Modules\Xray.cpp" />
+    <ClCompile Include="Kisse\Kisse.cpp" />
+    <ClCompile Include="Kisse\CTimer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HotSpot\HotSpot.hpp" />
+    <ClInclude Include="io\netty\ChannelHandlerContext\ChannelHandlerContext.h" />
+    <ClInclude Include="java\lang\ClassLoader\ClassLoader.h" />
+    <ClInclude Include="java\lang\Double\Double.h" />
+    <ClInclude Include="java\lang\Object\Object.h" />
+    <ClInclude Include="java\lang\String\String.h" />
+    <ClInclude Include="java\lang\System\System.h" />
+    <ClInclude Include="java\nio\FloatBuffer\FloatBuffer.h" />
+    <ClInclude Include="java\nio\IntBuffer\IntBuffer.h" />
+    <ClInclude Include="java\util\Collection\Collection.h" />
+    <ClInclude Include="java\util\List\List.h" />
+    <ClInclude Include="java\util\Map\Map.h" />
+    <ClInclude Include="Kisse\Modules\AimAssist.h" />
+    <ClInclude Include="Kisse\Modules\LeftClicker.h" />
+    <ClInclude Include="Kisse\Modules\themered.h" />
+    <ClInclude Include="net\minecraft\block\Block.h" />
+    <ClInclude Include="net\minecraft\block\state\IBlockState.h" />
+    <ClInclude Include="net\minecraft\client\entity\AbstractClientPlayer\AbstractClientPlayer.h" />
+    <ClInclude Include="net\minecraft\client\entity\EntityPlayerSP\EntityPlayerSP.h" />
+    <ClInclude Include="net\minecraft\client\gui\GuiScreen\GuiScreen.h" />
+    <ClInclude Include="net\minecraft\client\Minecraft\Minecraft.h" />
+    <ClInclude Include="net\minecraft\client\multiplayer\PlayerControllerMP\PlayerControllerMP.h" />
+    <ClInclude Include="net\minecraft\client\multiplayer\WorldClient\WorldClient.h" />
+    <ClInclude Include="net\minecraft\client\network\NetHandlerPlayClient\NetHandlerPlayClient.h" />
+    <ClInclude Include="net\minecraft\client\OptionInstance\OptionInstance.h" />
+    <ClInclude Include="net\minecraft\client\renderer\ActiveRenderInfo\ActiveRenderInfo.h" />
+    <ClInclude Include="net\minecraft\client\settings\GameSettings\GameSettings.h" />
+    <ClInclude Include="net\minecraft\client\settings\KeyBinding\KeyBinding.h" />
+    <ClInclude Include="net\minecraft\entity\EntityLivingBase\EntityLivingBase.h" />
+    <ClInclude Include="net\minecraft\entity\Entity\Entity.h" />
+    <ClInclude Include="net\minecraft\entity\player\EntityPlayer\EntityPlayer.h" />
+    <ClInclude Include="net\minecraft\network\NetworkManager\NetworkManager.h" />
+    <ClInclude Include="net\minecraft\network\Packet\Packet.h" />
+    <ClInclude Include="net\minecraft\network\play\client\C03PacketPlayer\C03PacketPlayer.h" />
+    <ClInclude Include="net\minecraft\network\play\client\C03PacketPlayer\C04PacketPlayerPosition\C04PacketPlayerPosition.h" />
+    <ClInclude Include="net\minecraft\network\play\client\C03PacketPlayer\C06PacketPlayerPosLook\C06PacketPlayerPosLook.h" />
+    <ClInclude Include="net\minecraft\network\play\server\S12PacketEntityVelocity\S12PacketEntityVelocity.h" />
+    <ClInclude Include="net\minecraft\network\play\server\S14PacketEntity\S14PacketEntity.h" />
+    <ClInclude Include="net\minecraft\network\play\server\S19PacketEntityStatus\S19PacketEntityStatus.h" />
+    <ClInclude Include="net\minecraft\network\protocol\game\ClientboundDamageEventPacket\ClientboundDamageEventPacket.h" />
+    <ClInclude Include="net\minecraft\util\AxisAlignedBB\AxisAlignedBB.h" />
+    <ClInclude Include="net\minecraft\util\BlockPos\BlockPos.h" />
+    <ClInclude Include="net\minecraft\util\MovingObjectPosition\MovingObjectPosition.h" />
+    <ClInclude Include="net\minecraft\util\MovingObjectPosition\MovingObjectType\MovingObjectType.h" />
+    <ClInclude Include="net\minecraft\util\Timer\Timer.h" />
+    <ClInclude Include="net\minecraft\util\Vec3\Vec3.h" />
+    <ClInclude Include="net\minecraft\world\World\World.h" />
+    <ClInclude Include="Kisse\Cache\Cache.h" />
+    <ClInclude Include="Kisse\GUI\font.h" />
+    <ClInclude Include="Kisse\GUI\GUI.h" />
+    <ClInclude Include="Kisse\Hook\Capstone.h" />
+    <ClInclude Include="Kisse\Hook\Hook.h" />
+    <ClInclude Include="Kisse\Hook\JavaHook.h" />
+    <ClInclude Include="Kisse\Hook\Module.h" />
+    <ClInclude Include="Kisse\JavaClass\JavaClass.h" />
+    <ClInclude Include="Kisse\Mappings\mappings_forge_1_7_10.h" />
+    <ClInclude Include="Kisse\Mappings\mappings_lunar_1_16_5.h" />
+    <ClInclude Include="Kisse\Mappings\mappings_lunar_1_19_4.h" />
+    <ClInclude Include="Kisse\Mappings\mappings_lunar_1_7_10.h" />
+    <ClInclude Include="Kisse\Mappings\mappings_lunar_1_8_9.h" />
+    <ClInclude Include="Kisse\Mappings\mappings_vanilla_1_8_9.h" />
+    <ClInclude Include="Kisse\Maths\Maths.h" />
+    <ClInclude Include="Kisse\Modules\Modules.h" />
+    <ClInclude Include="Kisse\Kisse.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

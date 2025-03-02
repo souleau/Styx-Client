@@ -1,0 +1,103 @@
+﻿  HotSpot.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  ChannelHandlerContext.cpp
+  ClassLoader.cpp
+  Double.cpp
+  Object.cpp
+  String.cpp
+  System.cpp
+  FloatBuffer.cpp
+  IntBuffer.cpp
+  Collection.cpp
+  List.cpp
+  Map.cpp
+  main.cpp
+  Block.cpp
+  IBlockState.cpp
+  AbstractClientPlayer.cpp
+  EntityPlayerSP.cpp
+  GuiScreen.cpp
+  Minecraft.cpp
+  PlayerControllerMP.cpp
+  WorldClient.cpp
+  NetHandlerPlayClient.cpp
+  OptionInstance.cpp
+  ActiveRenderInfo.cpp
+  GameSettings.cpp
+  KeyBinding.cpp
+  EntityLivingBase.cpp
+  Entity.cpp
+  EntityPlayer.cpp
+  NetworkManager.cpp
+  Packet.cpp
+  C03PacketPlayer.cpp
+  C04PacketPlayerPosition.cpp
+  C06PacketPlayerPosLook.cpp
+  S12PacketEntityVelocity.cpp
+  S14PacketEntity.cpp
+  S19PacketEntityStatus.cpp
+  ClientboundDamageEventPacket.cpp
+  AxisAlignedBB.cpp
+  BlockPos.cpp
+  MovingObjectPosition.cpp
+  MovingObjectType.cpp
+  Timer.cpp
+  Vec3.cpp
+  World.cpp
+  Cache.cpp
+  GUI.cpp
+  Capstone.cpp
+  JavaHook.cpp
+  Module.cpp
+  JavaClassV2.cpp
+  Maths.cpp
+  Aimassist.cpp
+  BackTrack.cpp
+  Blink.cpp
+  ClientBrandChanger.cpp
+F:\src\styx - Copie\Kisse\GUI\GUI.cpp(137,18): warning C4244: 'argument': conversion from 'WPARAM' to 'int', possible loss of data
+  FastPlace.cpp
+  FullBright.cpp
+  Glide.cpp
+  Autoclicker.cpp
+  LegitScaffold.cpp
+  Modules.cpp
+  NoFall.cpp
+  NoMiss.cpp
+F:\src\styx - Copie\Kisse\Modules\Autoclicker.cpp(55,9): warning C4311: 'reinterpret_cast': pointer truncation from 'HCURSOR' to 'int'
+F:\src\styx - Copie\Kisse\Modules\Autoclicker.cpp(55,9): warning C4302: 'reinterpret_cast': truncation from 'HCURSOR' to 'int'
+F:\src\styx - Copie\Kisse\Modules\Autoclicker.cpp(100,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\src\styx - Copie\Kisse\Modules\Autoclicker.cpp(103,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Reach.cpp
+  Speed.cpp
+  Sprint.cpp
+  theme.cpp
+  Velocity.cpp
+  VelocityFly.cpp
+  VelocityPacket.cpp
+  WTap.cpp
+  Xray.cpp
+  Kisse.cpp
+  CTimer.cpp
+  miniz.c
+capstone.lib(cs.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(cs.obj)' or at ''; linking object as if no debug info
+capstone.lib(X86Module.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(X86Module.obj)' or at ''; linking object as if no debug info
+capstone.lib(MCInst.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(MCInst.obj)' or at ''; linking object as if no debug info
+capstone.lib(SStream.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(SStream.obj)' or at ''; linking object as if no debug info
+capstone.lib(utils.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(utils.obj)' or at ''; linking object as if no debug info
+capstone.lib(X86Disassembler.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(X86Disassembler.obj)' or at ''; linking object as if no debug info
+capstone.lib(X86IntelInstPrinter.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(X86IntelInstPrinter.obj)' or at ''; linking object as if no debug info
+capstone.lib(X86Mapping.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(X86Mapping.obj)' or at ''; linking object as if no debug info
+capstone.lib(MCInstrDesc.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(MCInstrDesc.obj)' or at ''; linking object as if no debug info
+capstone.lib(MCRegisterInfo.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(MCRegisterInfo.obj)' or at ''; linking object as if no debug info
+capstone.lib(X86DisassemblerDecoder.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(X86DisassemblerDecoder.obj)' or at ''; linking object as if no debug info
+capstone.lib(X86InstPrinterCommon.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(X86InstPrinterCommon.obj)' or at ''; linking object as if no debug info
+capstone.lib(Mapping.obj) : warning LNK4099: PDB '' was not found with 'capstone.lib(Mapping.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Kisse Client.vcxproj -> F:\src\styx - Copie\x64\Debug\Kisse Client.dll

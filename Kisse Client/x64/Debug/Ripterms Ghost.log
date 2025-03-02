@@ -1,0 +1,366 @@
+﻿  HotSpot.cpp
+  ClassLoader.cpp
+  Double.cpp
+  Object.cpp
+  String.cpp
+  System.cpp
+  FloatBuffer.cpp
+  IntBuffer.cpp
+  Collection.cpp
+  List.cpp
+  Map.cpp
+  Block.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.h(10,43): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'java/lang/ClassLoader/ClassLoader.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.h(10,43): error C2065: 'p_env': undeclared identifier
+  (compiling source file 'java/lang/ClassLoader/ClassLoader.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.h(11,57): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'java/lang/ClassLoader/ClassLoader.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.h(11,57): error C2065: 'p_env': undeclared identifier
+  (compiling source file 'java/lang/ClassLoader/ClassLoader.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(127,2): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(127,12): error C2065: 'p_tienv': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(131,3): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(131,13): error C2065: 'p_tienv': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(135,4): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(135,14): error C2065: 'p_tienv': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(139,3): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(139,13): error C2065: 'p_tienv': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(147,2): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.cpp(147,12): error C2065: 'p_tienv': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,16): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'java/lang/Double/Double.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,38): error C3646: 'DoubleClass': unknown override specifier
+  (compiling source file 'java/lang/Double/Double.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'java/lang/Double/Double.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,49): error C2440: 'initializing': cannot convert from 'const char [17]' to 'int'
+  (compiling source file 'java/lang/Double/Double.cpp')
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,49):
+  Reason: cannot convert from 'const char [17]' to 'int'
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,51):
+  a conversion from 'const char [17]' to 'int' is not allowed in this context
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(8,52): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'java/lang/Double/Double.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(8,52): error C2065: 'p_env': undeclared identifier
+  (compiling source file 'java/lang/Double/Double.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.cpp(6,31): error C2065: 'DoubleClass': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.cpp(6,60): error C2065: 'DoubleClass': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.cpp(12,49): error C2065: 'DoubleClass': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.cpp(12,20): error C2660: 'JNIEnv_::CallDoubleMethod': function does not take 1 arguments
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\Include\JNI\jni.h(1039,13):
+  see declaration of 'JNIEnv_::CallDoubleMethod'
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.cpp(12,20):
+  while trying to match the argument list '(jobject)'
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\nio\FloatBuffer\FloatBuffer.h(3,10): error C1083: Cannot open include file: '../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'java/nio/FloatBuffer/FloatBuffer.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\nio\IntBuffer\IntBuffer.h(3,10): error C1083: Cannot open include file: '../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'java/nio/IntBuffer/IntBuffer.cpp')
+  
+  IBlockState.cpp
+  AbstractClientPlayer.cpp
+  EntityPlayerSP.cpp
+  GuiScreen.cpp
+  Minecraft.cpp
+  PlayerControllerMP.cpp
+  WorldClient.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/client/entity/AbstractClientPlayer/AbstractClientPlayer.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/client/entity/EntityPlayerSP/EntityPlayerSP.cpp')
+  
+  NetHandlerPlayClient.cpp
+  OptionInstance.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/client/Minecraft/Minecraft.cpp')
+  
+  ActiveRenderInfo.cpp
+  GameSettings.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\BlockPos\BlockPos.h(3,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/client/multiplayer/WorldClient/WorldClient.cpp')
+  
+  KeyBinding.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/client/multiplayer/PlayerControllerMP/PlayerControllerMP.cpp')
+  
+  EntityLivingBase.cpp
+  Entity.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,16): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'net/minecraft/client/OptionInstance/OptionInstance.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,38): error C3646: 'OptionInstanceClass': unknown override specifier
+  (compiling source file 'net/minecraft/client/OptionInstance/OptionInstance.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'net/minecraft/client/OptionInstance/OptionInstance.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,57): error C2440: 'initializing': cannot convert from 'const char [36]' to 'int'
+  (compiling source file 'net/minecraft/client/OptionInstance/OptionInstance.cpp')
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,57):
+  Reason: cannot convert from 'const char [36]' to 'int'
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,59):
+  a conversion from 'const char [36]' to 'int' is not allowed in this context
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.cpp(6,32): error C2065: 'OptionInstanceClass': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.cpp(6,5): error C2660: 'JNIEnv_::SetObjectField': function does not take 2 arguments
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\Include\JNI\jni.h(1315,10):
+  see declaration of 'JNIEnv_::SetObjectField'
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.cpp(6,5):
+  while trying to match the argument list '(jobject, const jobject)'
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.cpp(13,46): error C2065: 'OptionInstanceClass': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.cpp(13,19): error C2660: 'JNIEnv_::GetObjectField': function does not take 1 arguments
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\Include\JNI\jni.h(1287,13):
+  see declaration of 'JNIEnv_::GetObjectField'
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.cpp(13,19):
+  while trying to match the argument list '(jobject)'
+  
+  EntityPlayer.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,16): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,38): error C3646: 'OptionInstanceClass': unknown override specifier
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,57): error C2440: 'initializing': cannot convert from 'const char [36]' to 'int'
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,57):
+  Reason: cannot convert from 'const char [36]' to 'int'
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\OptionInstance\OptionInstance.h(14,59):
+  a conversion from 'const char [36]' to 'int' is not allowed in this context
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,16): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,38): error C3646: 'DoubleClass': unknown override specifier
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,49): error C2440: 'initializing': cannot convert from 'const char [17]' to 'int'
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,49):
+  Reason: cannot convert from 'const char [17]' to 'int'
+  C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(11,51):
+  a conversion from 'const char [17]' to 'int' is not allowed in this context
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(8,52): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Double\Double.h(8,52): error C2065: 'p_env': undeclared identifier
+  (compiling source file 'net/minecraft/client/settings/GameSettings/GameSettings.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(9,6): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(9,16): error C2065: 'version': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(9,32): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(9,51): error C2065: 'MAJOR_1_16_5': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(11,6): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(11,16): error C2065: 'version': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(11,32): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(11,51): error C2065: 'MAJOR_1_19_4': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(38,6): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(38,16): error C2065: 'version': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(38,32): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(38,51): error C2065: 'MAJOR_1_16_5': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(43,6): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(43,16): error C2065: 'version': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(43,32): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\client\settings\GameSettings\GameSettings.cpp(43,51): error C2065: 'MAJOR_1_19_4': undeclared identifier
+  NetworkManager.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\nio\FloatBuffer\FloatBuffer.h(3,10): error C1083: Cannot open include file: '../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/client/renderer/ActiveRenderInfo/ActiveRenderInfo.cpp')
+  
+  Packet.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/entity/EntityLivingBase/EntityLivingBase.cpp')
+  
+  C03PacketPlayer.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/entity/Entity/Entity.cpp')
+  
+  C04PacketPlayerPosition.cpp
+  C06PacketPlayerPosLook.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Object\Object.cpp(63,30): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Object\Object.cpp(63,40): error C2065: 'p_env': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Object\Object.cpp(119,7): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\Object\Object.cpp(119,17): error C2065: 'p_env': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'HotSpot/HotSpot.cpp')
+  
+  S12PacketEntityVelocity.cpp
+  S14PacketEntity.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\block\Block.cpp(13,6): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\block\Block.cpp(13,16): error C2065: 'version': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\block\Block.cpp(13,32): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\block\Block.cpp(13,51): error C2065: 'MAJOR_1_7_10': undeclared identifier
+  S19PacketEntityStatus.cpp
+  ClientboundDamageEventPacket.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/entity/player/EntityPlayer/EntityPlayer.cpp')
+  
+  AxisAlignedBB.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\network\play\client\C03PacketPlayer\C03PacketPlayer.h(3,10): error C1083: Cannot open include file: '../../../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/network/play/client/C03PacketPlayer/C04PacketPlayerPosition/C04PacketPlayerPosition.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\network\play\client\C03PacketPlayer\C03PacketPlayer.h(3,10): error C1083: Cannot open include file: '../../../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/network/play/client/C03PacketPlayer/C03PacketPlayer.cpp')
+  
+  BlockPos.cpp
+  MovingObjectPosition.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\network\play\client\C03PacketPlayer\C03PacketPlayer.h(3,10): error C1083: Cannot open include file: '../../../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/network/play/client/C03PacketPlayer/C06PacketPlayerPosLook/C06PacketPlayerPosLook.cpp')
+  
+  MovingObjectType.cpp
+  Timer.cpp
+  Vec3.cpp
+  World.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\BlockPos\BlockPos.h(3,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/util/BlockPos/BlockPos.cpp')
+  
+  Cache.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp(6,6): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp(6,16): error C2065: 'version': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp(6,32): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp(6,51): error C2065: 'MAJOR_1_16_5': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp(6,67): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp(6,77): error C2065: 'version': undeclared identifier
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp(6,93): error C2653: 'Ripterms': is not a class or namespace name
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp(6,112): error C2065: 'MAJOR_1_19_4': undeclared identifier
+  GUI.cpp
+  JavaHook.cpp
+  JavaClassV2.cpp
+  AimAssist.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\Vec3\Vec3.h(3,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/util/Vec3/Vec3.cpp')
+  
+  BackTrack.cpp
+  Blink.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Cache/Cache.cpp')
+  
+  ClientBrandChanger.cpp
+  FastPlace.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\util\BlockPos\BlockPos.h(3,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'net/minecraft/world/World/World.cpp')
+  
+  FullBright.cpp
+  Glide.cpp
+  HitBoxes.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.h(10,43): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'Kisse/JavaClass/JavaClassV2.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.h(10,43): error C2065: 'p_env': undeclared identifier
+  (compiling source file 'Kisse/JavaClass/JavaClassV2.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.h(11,57): error C2653: 'Ripterms': is not a class or namespace name
+  (compiling source file 'Kisse/JavaClass/JavaClassV2.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\java\lang\ClassLoader\ClassLoader.h(11,57): error C2065: 'p_env': undeclared identifier
+  (compiling source file 'Kisse/JavaClass/JavaClassV2.cpp')
+  
+  LeftClicker.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/AimAssist.cpp')
+  
+  LegitScaffold.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/BackTrack.cpp')
+  
+  Modules.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/Blink.cpp')
+  
+  NoFall.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/ClientBrandChanger.cpp')
+  
+  NoMiss.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/FastPlace.cpp')
+  
+  Reach.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/FullBright.cpp')
+  
+  Speed.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/HitBoxes.cpp')
+  
+  Sprint.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/Glide.cpp')
+  
+  Test.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/LeftClicker.cpp')
+  
+  Velocity.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/LegitScaffold.cpp')
+  
+  VelocityFly.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/Modules.cpp')
+  
+  VelocityPacket.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/NoFall.cpp')
+  
+  WTap.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/NoMiss.cpp')
+  
+  Xray.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/Reach.cpp')
+  
+  Kisse.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/Speed.cpp')
+  
+  CTimer.cpp
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\Kisse\CTimer.cpp(1,10): error C1083: Cannot open include file: 'Ripterms.h': No such file or directory
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/Sprint.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/Test.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/Velocity.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/VelocityFly.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/VelocityPacket.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/WTap.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Modules/Xray.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/Kisse.cpp')
+  
+C:\Users\2busty\Desktop\kisse me\kisse client update gui private\net\minecraft\entity\Entity\Entity.h(4,10): error C1083: Cannot open include file: '../../../../Ripterms/Maths/Maths.h': No such file or directory
+  (compiling source file 'Kisse/GUI/GUI.cpp')
+  
